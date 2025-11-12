@@ -21,26 +21,22 @@
 ---
 
 ## 🧭 서비스 개요
-- **도서 검색 및 상세 보기**
-- **리뷰 작성, 수정, 삭제, 추천**
-- **댓글(코멘트) 시스템**
-- **인기 도서 및 리뷰 자동 업데이트**
+- **도서 시스템**
+- **리뷰 시스템**
+- **댓글 시스템**
 - **사용자 알림 시스템**
-- **배치 서버를 통한 주기적 데이터 동기화**
+- **인기 도서, 인기 리뷰, 파워 유저 시스템**
 
 ---
 
 ## 👥 팀원 구성
-기능 영역	담당자	GitHub
-도서 관리 / 댓글 관리	박지성 (팀장)	jisung403
-
-리뷰 관리 / 배포 (AWS/Docker)	정수진	5ranke
-
-사용자 관리 / 대시보드	김지은	j2eun0922
-
-알림 관리	차규환	chagyuhwan
-
-발표자료 준비	변우혁	woohyuk99
+| **기능 영역** | **담당자** |
+| --- | --- |
+| **도서 관리 / 댓글 관리** | [**박지성 (팀장)**](https://github.com/jisung403) |
+| **리뷰 관리 / 배포 (AWS/Docker)**  | [**정수진**](https://github.com/5ranke) |
+| **사용자 관리 / 대시보드** | [**김지은**](https://github.com/j2eun0922) |
+| **알림 관리** | [**차규환**](https://github.com/chagyuhwan) |
+| **발표자료 준비** | [**변우혁**](https://github.com/woohyuk99) |
 
 ---
 
@@ -62,8 +58,8 @@
 ## 🗂️ 레포지토리 구성
 | **Repository** | **설명** |
 |----------------|----------|
-| [**deokhugam-backend**](https://github.com/deokhugam/deokhugam-backend) | 메인 API 서버 (회원, 리뷰, 도서, 댓글, 알림 관리) |
-| [**deokhugam-batch**](https://github.com/deokhugam/deokhugam-batch) | 대시보드 순위 관리 배치 서버 |
+| [**deokhugam-backend**](https://github.com/sb5-deokhugam-team8/deokhugam-backend) | 메인 API 서버 (회원, 리뷰, 도서, 댓글, 알림 관리) |
+| [**deokhugam-batch**](https://github.com/sb5-deokhugam-team8/deokhugam-batch) | 대시보드 순위 관리 배치 서버 |
 
 ---
 
@@ -83,11 +79,13 @@
 | **revert** | 이전 커밋 되돌리기 | `revert: revert "feat: 사용자 로그인 기능을 추가했습니다."` |
 
 ---
+## 발표 자료(pdf)
+[발표자료](https://www.notion.so/5-8-2a0911ad8de0805d9c81fee4d4337223?source=copy_link#2a3911ad8de0803e8f61c03f9492f5cb)
 
 ## 📘 API 문서
 
-Swagger UI: http://sprint-project-1196140422.ap-northeast-2.elb.amazonaws.com/sb/deokhugam/api/swagger-ui/index.html#/
+[Swagger UI](http://sprint-project-1196140422.ap-northeast-2.elb.amazonaws.com/sb/deokhugam/api/swagger-ui/index.html#/)
 
 ## 🗂️ 협업 문서
 
-Notion: https://www.notion.so/5-8-2a0911ad8de0805d9c81fee4d4337223
+[Notion](https://www.notion.so/5-8-2a0911ad8de0805d9c81fee4d4337223)
